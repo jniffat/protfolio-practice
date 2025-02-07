@@ -5,12 +5,18 @@
     font-variation-settings:
       "wdth" 100;
   }
+.header
+{
+    background-image: url('../image/developer.png'), url('../image/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 nav
 {
 display: flex;
 align-items: center;
 justify-content: space-between;
-margin: 20px 50px ;
+margin: 20px 50px 20px 230px ;
 
 }
 
@@ -52,4 +58,52 @@ nav li a
 .nav-logo-primary
 {
     color:#FD6E0A
+}
+.banner
+{
+    display: flex;
+    margin: 0 35px 0 230px;
+
+    justify-content: space-between;
+    
+}
+.banner-content
+{
+    max-width: 580px;
+}
+.banner-greetings
+{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title
+{
+    font-size: 85px;
+    font-weight: 800;
+}
+.banner-description
+{
+    font-size: 18px;
+    font-weight: 200;
+}
+.banner-dp
+{
+    width: 580px;
+}
+.second-btn
+{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.contact-btn
+{
+    margin-left: 10px;
+    background-color: beige;
+    padding : 18px 50px;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
 }
