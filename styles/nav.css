@@ -11,6 +11,30 @@
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+/* Shared styles */
+.secondary-bg
+{
+    background-color: #FFF8F3 ;
+}
+.btn-primary
+{
+ background-color: #FD6E0A ;
+ padding : 18px 35px;
+ color: white;
+ font-weight: bolder;
+ font-size: 20px;
+ border: none;
+ border-radius: 5px;
+}
+.dark-2
+{
+    color: #474747 ;
+}
+.nav-logo-primary
+{
+    color:#FD6E0A
+}
+
 nav
 {
 display: flex;
@@ -36,20 +60,7 @@ nav li a
    
     font-size: 20px;
 }
-.btn-primary
-{
- background-color: #FD6E0A ;
- padding : 18px 35px;
- color: white;
- font-weight: bolder;
- font-size: 20px;
- border: none;
- border-radius: 5px;
-}
-.dark-2
-{
-    color: #474747 ;
-}
+
 .nav-logo
 {
     font-weight: 800;
@@ -63,7 +74,6 @@ nav li a
 {
     display: flex;
     margin: 0 35px 0 230px;
-
     justify-content: space-between;
     
 }
@@ -106,4 +116,48 @@ nav li a
     font-size: 20px;
     border: none;
     border-radius: 5px;
+}
+main section
+{
+    margin-top: 130px;
+}
+main
+{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about
+{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.info
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.what-i-do
+{
+    text-align: center;
+    border-radius: 10px;
+
+}
+.skills-container
+{
+    display: flex;
+    gap: 24px;
+    text-align:start;
+   
+}
+.skill
+{
+    
+    padding: 33px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    
+    
 }
