@@ -120,11 +120,13 @@ nav li a
 main section
 {
     margin-top: 130px;
+    text-align: center;
 }
 main
 {
     max-width: 1140px;
     margin: 0 auto;
+
 }
 .about
 {
@@ -157,7 +159,57 @@ main
 {
     
     padding: 33px;
-    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);  
     
-    
+}
+.resume-container
+{
+    display: flex;
+    gap:24px
+
+}
+.resume-column
+{
+    text-align: left;
+
+}
+.experience-sub-title
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description , .experience-sub-title
+{
+    color:#757575;
+}
+hr
+{
+    margin: 30px 0;
+}
+
+.cv
+{
+    margin-top: 50px;
+}
+.footer
+{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-column
+{
+    width: 50%;
+}
+input[type="text"], input[type="email"], footer textarea
+{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    height: 60px;
+    display: block;
+    border: none;
+    background-color: white;
 }
